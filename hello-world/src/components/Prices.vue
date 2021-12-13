@@ -1,5 +1,5 @@
 <template>
-  <div class="prices">
+  <div class="prices">AME
  <span id= "AMEprice">$100 </span>
   </div>
 </template>
@@ -30,5 +30,8 @@ axios.get("https://api.coingecko.com/api/v3/simple/price?ids=tezos%2Calgorand%2C
 </script>
 
 <style >
-
+   .prices{
+   margin-top: 5%;
+   font-size: 30px;
+ }
 </style>

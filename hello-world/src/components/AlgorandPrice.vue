@@ -1,5 +1,5 @@
 <template>
-  <div class="Alprices">
+  <div class="Alprices">Algorand
  <span id= "algorandPrice"> </span>
   </div>
 </template>
@@ -29,3 +29,10 @@ axios.get("https://api.coingecko.com/api/v3/simple/price?ids=tezos%2Calgorand%2C
 
 
 </script>
+
+<style>
+ .Alprices{
+   margin-top: 5%;
+   font-size: 30px;
+ }
+</style>
