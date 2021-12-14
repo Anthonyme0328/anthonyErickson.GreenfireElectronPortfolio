@@ -1,0 +1,11 @@
+These are the two components that i could not get to work fully, here is what i would be doing to fix them:
+
+    Twitter feeds
+
+    <a class="twitter-timeline" data-lang="en" href="https://twitter.com/ethereum?ref_src=twsrc%5Etfw">Tweets by ethereum</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    This is the code from the twitter dev page it should render on to the app.vue page, to fix this i need to reformat my file system so that this lives in the app.vue file and then i can bring in all the other components around it
+
+    Screen capture
+
+    to get the screen capture to work i would reinstall electron-vue-screen-capture with npm and link it to a button that causes the event to fire off and then designate the place the capture should be sent to. the documentation is straight forward but i was unable to get the event to trigger and the resulting screen capture to happen.
